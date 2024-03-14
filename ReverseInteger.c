@@ -5,7 +5,6 @@ int reverseInteger(int);
 
 int reverseInteger(int n) {
     int rev=0;//reverse integer
-    int nd=0;//no. of digits
     while(n!=0) {
         int rem=n%10;
         rev=(rev*10)+rem;
