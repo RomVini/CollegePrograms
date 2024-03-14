@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int rowColLagest(int,int,int [*][*]);
+void rowColLagest(int,int,int [*][*]);
 
 void rowColLargest(int x,int y,int arr[x][y]) {
     int row[x],col[y];
